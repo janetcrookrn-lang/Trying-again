@@ -6,73 +6,36 @@
     <title>Document</title>
 </head>
 <body>
-    <section>
-        <nav>
-            <img src="./assets/FES.svg" alt="FES Logo">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Discord</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <header>
-            <div>
-                <h1>Best place</h1>
-                <p>go from begin to pro</p>
-                <button>Start now</button>
-            </div>
-            <figure>
-                <img src="./assets/laptop.png" alt="Hero Image">
-            </figure>
-        </header>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>This is the introduction section.</p>
     </section>
-    <main>
-        <Section id="about"></Section>
-        <h2>About</h2>
-        <div> <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-    </div>
-    <figure>
-        <img src="./assets/about.jpg" alt="About">
-       </figure>
-    <section id="discord></section>
-    <h2>Discord</h2>
-    <figure>
-        <img src="./assets/discord.png alt="Discord">
-         </figure>
-         <div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quo voluptas a quae porro nisi temporibus, modi similique, accusamus distinctio, architecto aperiam id alias quas cupiditate sunt. Libero, incidunt aliquid?
-            </p>
-            <p>
-                Lorem again
-            </p>
-         </div>
-         <section id="contact"></section>
-         <h2>Contact</h2>
-         <form action="">
-        <span>Email</span>
-    <input type="text" placeholder="Jane@example.com">
-<span>Email</span>
-</form>
-    </main>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="images/photo.jpg" alt="A beautiful view">
+    </section>
+    <section id="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
     <footer>
-        <img src="./assets/FES.svg" alt="FES Logo">
-          <div> 
-
-            <a href="#about">About</a> 
-
-            <a href="#discord">Discord</a> 
-
-            <a href="#contact">Contact</a> 
-
-            <a href="Courses</a> 
-
-        </div>
-
-        <p>Copyright Frontend Simplified</p>
+        <p>&copy; 2026 My Website</p>
     </footer>
-    
 </body>
 </html>
