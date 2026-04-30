@@ -26,11 +26,12 @@ h1 {
 }
 .subheader {
     font-size: 36px;
+    margin: 16px 0 24px 0;
 }
 
 button {
     background-color: #05c7cf
-    color: white;
+    color:white;
     border: none;
     padding: 8px 16px;
     font-size: 24px;
