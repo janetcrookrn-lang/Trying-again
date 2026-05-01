@@ -60,12 +60,26 @@ a {
         aligh-items: center;
         justify-content: center;
     }
+
+    #about,
+    #discord,
+    #contact {
+        padding: 48px 0;
+       
+    }
+    
     /*
     ABOUT
     */
+    
     #about {
-        padding: 48px 0;
-        background-color: #f8ffdc
+        background-color: #cafdff;
+    }
+    #discord {
+        background-color: #cefeff;
+    }
+    #contact {
+        background-color: #f8ffdc;
     }
     h2 {
         font-size: 60px;
